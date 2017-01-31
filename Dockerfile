@@ -8,4 +8,6 @@ ADD ./tomcat7/server.xml $CATALINA_HOME/conf/
 ADD ./tomcat7/tomcat-users.xml $CATALINA_HOME/conf/
 
 EXPOSE 8080
+EXPOSE 18080
+
 CMD ["catalina.sh", "run"]
